@@ -14,7 +14,7 @@ const Footer = ({ scrollToSection }) => {
         <div className="footer-section">
           <div className="footer-brand">
             <BsBuildingsFill className="icon" />
-            <span className="brand-text">Shree Vastu</span>
+            <span className="brand-text"> Shree Vastu</span>
           </div>
           <p className="footer-description">
             A landmark of trust and modern construction. We redefine skyline
@@ -27,7 +27,7 @@ const Footer = ({ scrollToSection }) => {
         <div className="footer-section">
           <h4 className="footer-heading">Quick Links</h4>
           <ul className="footer-links">
-            {["home", "aboutus", "contact"].map((section) => (
+            {["home", "about-us", "contact"].map((section) => (
               <li key={section}>
                 <a
                   href={`#${section}`}
@@ -36,7 +36,7 @@ const Footer = ({ scrollToSection }) => {
                     scrollToSection(section);
                   }}
                 >
-                  {section === "aboutus"
+                  {section === "about-us"
                     ? "About Us"
                     : section.charAt(0).toUpperCase() + section.slice(1)}
                 </a>
@@ -49,7 +49,7 @@ const Footer = ({ scrollToSection }) => {
         <div className="footer-section">
           <h4 className="footer-heading">Contact Info</h4>
           <div className="contact-item">
-            <FiMapPin className="icon small" />
+            <FiMapPin className="icon small" style={{ color: "#d87d4a" }} />
             <span>
               Temghar Village, Kalyan-Bhiwandi Road,
               <br />
@@ -57,12 +57,12 @@ const Footer = ({ scrollToSection }) => {
             </span>
           </div>
           <div className="contact-item">
-            <FaPhone className="icon small" />
-            <span>+91-9876543210</span>
+            <FaPhone className="icon small" style={{ color: "#d87d4a" }} />
+            <span> +91-9876543210</span>
           </div>
           <div className="contact-item">
-            <SiGmail className="icon small" />
-            <span>paintnrepair@gmail.com</span>
+            <SiGmail className="icon small" style={{ color: "#d87d4a" }} />
+            <span> paintnrepair@gmail.com</span>
           </div>
         </div>
       </div>

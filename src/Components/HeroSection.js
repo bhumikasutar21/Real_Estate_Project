@@ -23,7 +23,7 @@ function HeroSection({ scrollToSection }) {
         <div className="hero-buttons">
           <button
             className="primary-btn"
-            onClick={() => scrollToSection("aboutus")}
+            onClick={() => scrollToSection("about-us")}
           >
             Learn More
           </button>

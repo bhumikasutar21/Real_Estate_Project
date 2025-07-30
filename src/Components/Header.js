@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { BsBuildingsFill } from "react-icons/bs";
 import { FaBars } from "react-icons/fa6";
 function Header({ activeSection, scrollToSection }) {
@@ -7,7 +8,7 @@ function Header({ activeSection, scrollToSection }) {
 
   const navItems = [
     { id: "home", label: "Home" },
-    { id: "aboutus", label: "About Us" },
+    { id: "about-us", label: "About Us" },
     { id: "contact", label: "Contact" },
   ];
 

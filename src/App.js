@@ -15,7 +15,7 @@ function App() {
   // Handle active section on scroll
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "aboutus", "contact", "map"];
+      const sections = ["home", "about-us", "contact", "map"];
       const scrollPosition = window.scrollY + 100;
 
       sections.forEach((section) => {
