@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.14d72fbb.css",
+    "main.js": "/static/js/main.ae3e0347.js",
+    "static/media/building-hero.jpg": "/static/media/building-hero.09f1c8d8ad3db59771f0.jpg",
+    "static/media/building-about.jpg": "/static/media/building-about.02e574e8572e39490062.jpg",
+    "index.html": "/index.html",
+    "main.14d72fbb.css.map": "/static/css/main.14d72fbb.css.map",
+    "main.ae3e0347.js.map": "/static/js/main.ae3e0347.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14d72fbb.css",
+    "static/js/main.ae3e0347.js"
+  ]
+}
