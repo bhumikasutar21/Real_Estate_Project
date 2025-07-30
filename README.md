@@ -123,7 +123,7 @@ Update the Google Maps embed URL in `App.js` with your actual location coordinat
 ## Contact
 
 For any questions or support, please contact:
-- Email: info@shreevastu.com
+- Email: paintnrepair@gmail.com
 - Phone: +91-9876543210
 
 ---
